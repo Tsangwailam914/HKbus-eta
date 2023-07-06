@@ -6,7 +6,6 @@ export const useBusStore = defineStore("busInfo", {
         async getAllBusInfo() {
             const res = await fetch("https://data.etabus.gov.hk/v1/transport/kmb/route/");
             this.busInfo = await res.json();
-            // console.log(this.busInfo)
         }
     }
 })

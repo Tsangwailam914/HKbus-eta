@@ -38,18 +38,14 @@ export const useBusStopStore = defineStore('busStopInfo', {
         },
         // filter stop details from busStops[]
         async filterStopsId() {
-            // console.log(this.routeBusStops);
             var stateRouteBusStops = await JSON.parse(JSON.stringify((this.routeBusStops as any).data));
             var stateBusStops = await JSON.parse(JSON.stringify((this.busStops as any).data));
-            // console.log(stateRouteBusStops)
-            // console.log(stateBusStops)
+
             stateRouteBusStops.forEach((routeStop: any) => {
                 var stop = routeStop.stop;
                 (stateBusStops as any).filter((busStop: any) => {
                     if (busStop.stop === stop) {
                         routeStop.info = busStop;
-                        // console.log(routeStop);
-                        // return routeStop;
                         (this.routeInfoDetails as any).push(routeStop);
                     }
                 })
@@ -71,7 +67,6 @@ export const useBusStopStore = defineStore('busStopInfo', {
             const success = (pos: any) => {
                 const crd = pos.coords;
                 (this.userLocation as any) = {lat: crd.latitude, long: crd.longitude};
-                // (this.userLocation as any).long = crd.longitude;
             }
             function error(err: any) {
                 console.warn(`ERROR(${err.code}): ${err.message}`);
@@ -103,7 +98,7 @@ export const useBusStopStore = defineStore('busStopInfo', {
             var stateUserLocation: any = await JSON.parse(JSON.stringify(this.userLocation));
             // console.log(JSON.parse(JSON.stringify(this.userLocation)));
             var stateRoutesStops = await JSON.parse(JSON.stringify((this.routesStops as any).data))
-            console.log(JSON.stringify((this.routesStops as any).data));
+            // console.log(JSON.stringify((this.routesStops as any).data));
             
 
             // for (var i = 0; i < stateBusStops.length; i++) {
