@@ -1,42 +1,27 @@
-# Nuxt 3 Minimal Starter
+# HKbus ETA
+This is a real-time bus arrival vue app for passengers in Hong Kong. Currently support bus routes opperated by The Kowloon Motor Bus(KMB).
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+![bus eta Home page](http://placecorgi.com/1200/650)
+![bus eta search](http://placecorgi.com/1200/650)
+![bus eta details page](http://placecorgi.com/1200/650)
 
-Make sure to install the dependencies:
+## How It's Made:
 
-```bash
-# yarn
-yarn install
+**Tech used:** Framework: Nuxt, Vue.js, pinia, i18n, TypeScript, JavaScript
 
-# npm
-npm install
+## Optimizations
 
-# pnpm
-pnpm install
-```
+Would love to add a filter to filter out the nearest stops for users, and a map to show the location of the bus stop.
 
-## Development Server
+## Lessons Learned:
 
-Start the development server on http://localhost:3000
+Adding state managemnet to the app can help to optimize the performance because it allows you to have a share state appear in components where they are used.
 
-```bash
-npm run dev
-```
+## Installation:
+1. Clone the repo
+2. Run `npm install` for the modules
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Usage:
+1. Run `npm run dev`
+2. Go to http://localhost:3000
