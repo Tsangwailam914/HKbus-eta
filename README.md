@@ -2,9 +2,10 @@
 This is a real-time bus arrival vue app for passengers in Hong Kong. Currently support bus routes opperated by The Kowloon Motor Bus(KMB).
 
 
-![bus eta Home page](http://placecorgi.com/1200/650)
-![bus eta search](http://placecorgi.com/1200/650)
-![bus eta details page](http://placecorgi.com/1200/650)
+![bus eta Home page](https://github.com/Tsangwailam914/HKbus-eta/assets/131461078/0b7afcda-6669-46d3-8df9-e23724637564)
+![bus eta search](https://github.com/Tsangwailam914/HKbus-eta/assets/131461078/aa5383fb-275f-4191-a137-273e2b110828)
+![bus eta details page](https://github.com/Tsangwailam914/HKbus-eta/assets/131461078/ee9085e8-36a4-4cc0-9f5f-fa15360a6654)
+
 
 ## How It's Made:
 
