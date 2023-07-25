@@ -1,10 +1,9 @@
 # HKbus ETA
 This is a real-time bus arrival vue app for passengers in Hong Kong. Currently support bus routes opperated by The Kowloon Motor Bus(KMB).
 
-
-![bus eta Home page](https://github.com/Tsangwailam914/HKbus-eta/assets/131461078/0b7afcda-6669-46d3-8df9-e23724637564 | width=250 )
-![bus eta search](https://github.com/Tsangwailam914/HKbus-eta/assets/131461078/aa5383fb-275f-4191-a137-273e2b110828 | width=250)
-![bus eta details page](https://github.com/Tsangwailam914/HKbus-eta/assets/131461078/ee9085e8-36a4-4cc0-9f5f-fa15360a6654 | width=250)
+<img width="854" alt="bus-eta-home" src="https://github.com/Tsangwailam914/HKbus-eta/assets/131461078/32ce6903-4aa8-4b76-9669-fb0aa8179282">
+<img width="634" alt="bus-eta-search" src="https://github.com/Tsangwailam914/HKbus-eta/assets/131461078/9c8ff1a6-f692-498b-94bd-7feaa16b58cd">
+<img width="618" alt="bus-eta-route-details" src="https://github.com/Tsangwailam914/HKbus-eta/assets/131461078/70057c33-4e0b-46f8-ab39-b2850acde434">
 
 
 ## How It's Made:
